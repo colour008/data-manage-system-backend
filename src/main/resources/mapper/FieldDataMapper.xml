@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.datamanagesystem.mapper.FieldDataMapper">
+
+    <!-- 批量新增字段数据 -->
+    <insert id="batchInsert">
+        INSERT INTO field_data (main_id, field_id, field_value)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.mainId}, #{item.fieldId}, #{item.fieldValue})
+        </foreach>
+    </insert>
+
+    <!-- 根据mainId删除字段数据 -->
+    <delete id="deleteByMainId">
+        DELETE FROM field_data WHERE main_id = #{mainId}
+    </delete>
+
+    <!-- 根据mainId和fieldId更新字段值 -->
+    <update id="updateByMainIdAndFieldId">
+        UPDATE field_data
+        SET field_value = #{fieldValue}
+        WHERE main_id = #{mainId} AND field_id = #{fieldId}
+    </update>
+</mapper>

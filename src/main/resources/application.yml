@@ -1,0 +1,29 @@
+spring:
+  # 数据库连接配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/excel?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: mazhh0318
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# MyBatis 配置
+# application.yml
+mybatis:
+  # 若存在此行，注释/删除（避免扫描XML文件）
+  # mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true # 保留下划线转驼峰（可选）
+
+# 服务端口
+server:
+  port: 8080
+
+# 日志配置
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+  charset:
+    console: UTF-8  # 控制台日志编码
+    file: UTF-8     # 日志文件编码（若有输出文件）
+  file:
+    name: logs/app.log  # 可选：日志文件路径
