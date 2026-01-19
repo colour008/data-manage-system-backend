@@ -1,63 +1,22 @@
-2026-01-16T19:44:38.577+08:00  INFO 3216 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Starting DatamanagesystemApplication using Java 23 with PID 3216 (D:\Projects\java\datamanagesystem\target\classes started by Administrator in D:\Projects\java\datamanagesystem)
-2026-01-16T19:44:38.578+08:00  INFO 3216 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T19:44:38.964+08:00  INFO 3216 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-01-16T19:44:38.970+08:00  INFO 3216 --- [datamanagesystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T19:44:38.970+08:00  INFO 3216 --- [datamanagesystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T19:44:38.987+08:00  INFO 3216 --- [datamanagesystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 384 ms
-2026-01-16T19:44:39.236+08:00  INFO 3216 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-01-16T19:44:39.238+08:00  INFO 3216 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Started DatamanagesystemApplication in 0.86 seconds (process running for 1.114)
-2026-01-16T19:44:45.495+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T19:44:45.495+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T19:44:45.496+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-01-16T19:44:45.526+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T19:44:45.599+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33f2b6c3
-2026-01-16T19:44:45.600+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T19:44:45.652+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-2] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_data暂无基础数据
-2026-01-16T19:45:04.975+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-5] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_data暂无基础数据
-2026-01-16T19:45:18.199+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-7] c.e.d.s.impl.DataManageServiceImpl       : 插入data_main成功，mainId=1
-2026-01-16T19:47:50.271+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-8] c.e.d.s.impl.DataManageServiceImpl       : 删除数据成功：data_main表中id=1的记录已删除
-2026-01-16T19:47:50.277+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-9] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_data暂无基础数据
-2026-01-16T19:50:07.770+08:00  INFO 3216 --- [datamanagesystem] [http-nio-8080-exec-3] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_data暂无基础数据
-2026-01-16T19:54:01.719+08:00  INFO 3216 --- [datamanagesystem] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T19:54:01.722+08:00  INFO 3216 --- [datamanagesystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-16T19:54:01.723+08:00  INFO 3216 --- [datamanagesystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T19:54:01.726+08:00  INFO 3216 --- [datamanagesystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T19:54:03.654+08:00  INFO 16428 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Starting DatamanagesystemApplication using Java 23 with PID 16428 (D:\Projects\java\datamanagesystem\target\classes started by Administrator in D:\Projects\java\datamanagesystem)
-2026-01-16T19:54:03.655+08:00  INFO 16428 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T19:54:04.041+08:00  INFO 16428 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-01-16T19:54:04.047+08:00  INFO 16428 --- [datamanagesystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T19:54:04.047+08:00  INFO 16428 --- [datamanagesystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T19:54:04.064+08:00  INFO 16428 --- [datamanagesystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 384 ms
-2026-01-16T19:54:04.306+08:00  INFO 16428 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-01-16T19:54:04.308+08:00  INFO 16428 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Started DatamanagesystemApplication in 0.854 seconds (process running for 1.112)
-2026-01-16T19:54:09.595+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T19:54:09.595+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T19:54:09.596+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-01-16T19:54:09.625+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T19:54:09.701+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d2a898a
-2026-01-16T19:54:09.702+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T19:54:09.762+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-2] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_data暂无基础数据
-2026-01-16T19:54:44.583+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-3] c.e.d.s.impl.DataManageServiceImpl       : 插入data_main成功，mainId=2
-2026-01-16T19:54:55.235+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-6] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=2，业务表=user_data
-2026-01-16T20:04:49.082+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-5] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_date暂无基础数据
-2026-01-16T20:04:51.409+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-7] c.e.d.s.impl.DataManageServiceImpl       : 业务表user_date暂无基础数据
-2026-01-16T20:05:37.280+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-3] c.e.d.s.impl.DataManageServiceImpl       : 字段sex的值不存在，执行新增逻辑
-2026-01-16T20:05:37.280+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-3] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=2，业务表=user_data
-2026-01-16T20:05:56.260+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-5] c.e.d.s.impl.DataManageServiceImpl       : 插入data_main成功，mainId=3
-2026-01-16T20:09:04.325+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-2] c.e.d.s.impl.DataManageServiceImpl       : 字段nationalities的值不存在，执行新增逻辑
-2026-01-16T20:09:04.326+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-2] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=3，业务表=user_data
-2026-01-16T20:09:07.451+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-4] c.e.d.s.impl.DataManageServiceImpl       : 字段nationalities的值不存在，执行新增逻辑
-2026-01-16T20:09:07.452+08:00  INFO 16428 --- [datamanagesystem] [http-nio-8080-exec-4] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=2，业务表=user_data
-2026-01-16T20:31:32.909+08:00  INFO 20976 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Starting DatamanagesystemApplication using Java 23 with PID 20976 (D:\Projects\data-manage-system\data-manage-system-backend\target\classes started by Administrator in D:\Projects\data-manage-system\data-manage-system-backend)
-2026-01-16T20:31:32.910+08:00  INFO 20976 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T20:31:33.297+08:00  INFO 20976 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-01-16T20:31:33.303+08:00  INFO 20976 --- [datamanagesystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T20:31:33.303+08:00  INFO 20976 --- [datamanagesystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T20:31:33.319+08:00  INFO 20976 --- [datamanagesystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 385 ms
-2026-01-16T20:31:33.584+08:00  INFO 20976 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-01-16T20:31:33.586+08:00  INFO 20976 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Started DatamanagesystemApplication in 0.879 seconds (process running for 1.142)
-2026-01-16T20:33:54.497+08:00  INFO 20976 --- [datamanagesystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T20:33:54.497+08:00  INFO 20976 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T20:33:54.497+08:00  INFO 20976 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-01-16T20:45:08.548+08:00  INFO 20976 --- [datamanagesystem] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T20:45:08.550+08:00  INFO 20976 --- [datamanagesystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-19T10:29:52.467+08:00  INFO 19432 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Starting DatamanagesystemApplication using Java 23 with PID 19432 (D:\Projects\data-manage-system\data-manage-system-backend\target\classes started by Administrator in D:\Projects\data-manage-system\data-manage-system-backend)
+2026-01-19T10:29:52.469+08:00  INFO 19432 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-01-19T10:29:52.969+08:00  INFO 19432 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-19T10:29:52.976+08:00  INFO 19432 --- [datamanagesystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-19T10:29:52.976+08:00  INFO 19432 --- [datamanagesystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-19T10:29:52.997+08:00  INFO 19432 --- [datamanagesystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 497 ms
+2026-01-19T10:29:53.300+08:00  INFO 19432 --- [datamanagesystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-19T10:29:53.302+08:00  INFO 19432 --- [datamanagesystem] [main] c.e.d.DatamanagesystemApplication        : Started DatamanagesystemApplication in 1.092 seconds (process running for 1.414)
+2026-01-19T10:30:02.461+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-19T10:30:02.461+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-19T10:30:02.462+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-19T10:30:02.513+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-19T10:30:02.636+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@386fb55
+2026-01-19T10:30:02.637+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-19T10:30:44.503+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-8] c.e.d.s.impl.DataManageServiceImpl       : 字段home_address的值不存在，执行新增逻辑
+2026-01-19T10:30:44.528+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-8] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=3，业务表=user_data
+2026-01-19T10:30:52.324+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] c.e.d.s.impl.DataManageServiceImpl       : 字段home_address的值不存在，执行新增逻辑
+2026-01-19T10:30:52.325+08:00  INFO 19432 --- [datamanagesystem] [http-nio-8080-exec-1] c.e.d.s.impl.DataManageServiceImpl       : 更新数据成功：mainId=2，业务表=user_data
+2026-01-19T10:34:34.099+08:00  INFO 19432 --- [datamanagesystem] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-19T10:34:34.101+08:00  INFO 19432 --- [datamanagesystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-19T10:34:34.102+08:00  INFO 19432 --- [datamanagesystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-19T10:34:34.106+08:00  INFO 19432 --- [datamanagesystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
